@@ -1,4 +1,4 @@
-#!/Users/tiru/Documents/Research/audio_from_youtube_timestamps/venv/bin/python3
+#!/Users/tiru/Documents/Research/audio_from_youtube_timestamps/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
