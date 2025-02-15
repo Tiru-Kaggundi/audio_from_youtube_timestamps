@@ -4,7 +4,8 @@ from moviepy.editor import AudioFileClip
 import ssl
 import certifi
 ssl._create_default_https_context = lambda: ssl.create_default_context(cafile=certifi.where())
-
+from pytube import request
+request.DEFAULT_HEADERS["User-Agent"] = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
 
 def mmss_to_seconds(ts):
     try:
